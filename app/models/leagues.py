@@ -16,7 +16,7 @@ class League(db.Model):
     created_at = db.Column(db.DateTime, nullable=False, default=func.now())
     updated_at = db.Column(db.DateTime, nullable=False, default=func.now(), onupdate=func.now())
 
-    user_id = db.Column(db.Integer, db.ForeignKey(add_prefix_for_prod('users.is'), ondelete='CASCADE'), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey(add_prefix_for_prod('users.id'), ondelete='CASCADE'), nullable=False)
     user = db.relationship('User', back_populates='leagues', lazy='dynamic')
 
   def to_dict(self):
