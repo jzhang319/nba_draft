@@ -1,9 +1,13 @@
-# Flask React Project
+# NBA Draft
 
-This is the starter for the Flask React project.
+This is a fantasy NBA drafting application.
+
+## SCHEMA for Database
+![Screenshot 2024-09-18 at 6 36 31 PM](https://github.com/user-attachments/assets/2054f886-6995-47b3-afca-f5166e4dfa1a)
+
 
 ## Getting started
-1. Clone this repository (only this branch)
+1. Clone this repository (main branch)
 
 2. Install dependencies
 
